@@ -13,6 +13,7 @@ install: $(XPUB)
 	chmod 755 $(XPUB)
 	cp $(UDEVRULE) $(UDEVDIR)/$(UDEVRULE)
 	cp $(XPUB) $(BINDIR)/xpub
+	udevadm control --reload-rules
 
 uninstall:
 	$(RM) $(UDEVDIR)/$(UDEVRULE) $(BINDIR)/xpub
