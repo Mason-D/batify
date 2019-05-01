@@ -4,6 +4,8 @@ Batify
 *Batify is an udevrule-file triggering plug and critical battery level notifications
 (using libnotify and [xpub](https://github.com/Ventto/xpub))*
 
+*This fork makes changes to the notification styling and formatting*
+
 ## Perks
 
 * [x] **Minimal**: only one udevrule-file (using *libnotify*).
